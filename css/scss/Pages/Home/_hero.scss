@@ -1,0 +1,141 @@
+.hero-area {
+    position: relative;
+    min-height: 100vh;
+
+    .hero-video {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        height: 90vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+
+
+
+
+    margin-top: 120px;
+
+    .hero-content-area {
+        .hero-sub-heading {
+            h5 {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 600;
+                color: #F4932C;
+                text-transform: uppercase;
+            }
+        }
+
+        .hero-heading {
+            h1 {
+                font-size: 50px;
+                line-height: 60px;
+                font-weight: 600;
+                color: #1E1E1E;
+            }
+        }
+
+        .hero-desc {
+            padding-right: 300px;
+
+            p {
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 400;
+                color: #4F4B48;
+            }
+        }
+
+        .hero-btn {
+            .rounded-button {
+                padding: 15px 35px;
+            }
+        }
+    }
+}
+
+
+
+@media all and (min-width:768px) and (max-width:991px) {
+    .hero-area {
+        min-height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        text-align: center;
+        margin-top: 50px;
+
+        .hero-video {
+            position: unset;
+            height: auto;
+
+        }
+    }
+}
+
+@media all and (min-width:577px) and (max-width:767px) {
+    .hero-area {
+        min-height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        text-align: center;
+        margin-top: 50px;
+
+        .hero-video {
+            position: unset;
+            height: auto;
+
+        }
+    }
+
+    .hero-area .hero-content-area .hero-heading h1 {
+        font-size: 36px;
+        line-height: 46px;
+        margin-top: 10px;
+    }
+
+    .hero-area .hero-content-area .hero-desc {
+        padding-right: 0px;
+    }
+}
+
+
+
+@media all and (max-width:576px) {
+    .container {
+        padding: 0px 15px;
+    }
+
+    .hero-area .hero-content-area .hero-btn .rounded-button {
+        padding: 10px 25px;
+    }
+
+    .hero-area {
+        min-height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        text-align: center;
+        margin-top: 50px;
+
+        .hero-video {
+            position: unset;
+            height: auto;
+
+        }
+    }
+
+    .hero-area .hero-content-area .hero-heading h1 {
+        font-size: 26px;
+        line-height: 36px;
+        margin-top: 10px;
+    }
+
+    .hero-area .hero-content-area .hero-desc {
+        padding-right: 0px;
+    }
+
+}

@@ -1,0 +1,94 @@
+.clean-air {
+    .video-area {
+        video {
+            width: 100%;
+        }
+    }
+
+    .single-card {
+        .subheading {
+            h5 {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 600;
+                color: #F4932C;
+                text-transform: uppercase;
+            }
+        }
+
+        .heading {
+            h3 {
+                font-size: 46px;
+                line-height: 64px;
+                font-weight: 600;
+                color: #1E1E1E;
+            }
+        }
+
+        .desc {
+            p {
+                font-size: 16px;
+                line-height: 30px;
+                font-weight: 400;
+                color: #4F4B48;
+            }
+        }
+
+        .btn-area {
+            .rounded-button {
+                padding: 15px 40px;
+            }
+        }
+    }
+}
+
+@media all and (min-width:992px) and (max-width:1200px) {
+    .clean-air .video-area video {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+    .clean-air .video-area video {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media all and (min-width:577px) and (max-width:767px) {
+    .clean-air .video-area video {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .clean-air .single-card .heading h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+@media all and (max-width:576px) {
+    .clean-air .single-card .btn-area .rounded-button {
+        padding: 10px 25px;
+    }
+
+    .clean-air .video-area video {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .clean-air .single-card .heading h3 {
+        font-size: 26px;
+        line-height: 36px;
+        margin-top: 10px;
+    }
+
+    .clean-air .single-card .desc p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+         .clean-air{
+            text-align: center;
+         }
+}
